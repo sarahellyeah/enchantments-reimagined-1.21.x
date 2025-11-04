@@ -1,0 +1,44 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "${group}",
+		"id": "ench_rei",
+		"version": "${version}",
+		"metadata": {
+			"name": "Enchantments Reimagined",
+			"description": "Mod aiming to make enchanting system feel magical.",
+			"contributors": {
+				"sarahellyeah": "Owner"
+			},
+			"contact": {
+				"homepage": "https://example.com/",
+				"issues": "https://github.com/sarahellyeah/enchantments-reimagined/issues",
+				"sources": "https://github.com/sarahellyeah/enchantments-reimagined"
+			},
+			"icon": "assets/example_mod/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": [
+				"io.github.sarahellyeah.EnchRei"
+			],
+			"client": [
+				"io.github.sarahellyeah.EnchReiClient"
+			],
+			"datagen": [
+				"io.github.sarahellyeah.EnchReiDatagen"
+			]
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.19.1"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.21"
+			}
+		]
+	},
+	"mixin": "example_mod.mixins.json"
+}
