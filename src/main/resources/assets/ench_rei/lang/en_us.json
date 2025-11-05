@@ -1,3 +1,21 @@
 {
-  "item.ench_rei.glowing_magma": "Glowing Magma"
+  "item.ench_rei.glowing_magma": "Glowing Magma",
+  "item.ench_rei.mana_crystal": "Mana Crystal",
+  "item.ench_rei.damaged_mana_crystal": "Damaged Mana Crystal",
+  "item.ench_rei.scorch_crystal": "Scorch Crystal",
+  "item.ench_rei.blessed_scorch_crystal": "Blessed Scorch Crystal",
+  "item.ench_rei.corrupted_scorch_crystal": "Corrupted Scorch Crystal",
+  "item.ench_rei.damaged_scorch_crystal": "Damaged Scorch Crystal",
+  "item.ench_rei.frost_crystal": "Frost Crystal",
+  "item.ench_rei.blessed_frost_crystal": "Blessed Frost Crystal",
+  "item.ench_rei.corrupted_frost_crystal": "Corrupted Frost Crystal",
+  "item.ench_rei.damaged_frost_crystal": "Damaged Frost Crystal",
+  "item.ench_rei.fortune_crystal": "Fortune Crystal",
+  "item.ench_rei.blessed_fortune_crystal": "Blessed Fortune Crystal",
+  "item.ench_rei.corrupted_fortune_crystal": "Corrupted Fortune Crystal",
+  "item.ench_rei.damaged_fortune_crystal": "Damaged Fortune Crystal",
+  "item.ench_rei.power_crystal": "Power Crystal",
+  "item.ench_rei.blessed_power_crystal": "Blessed Power Crystal",
+  "item.ench_rei.corrupted_power_crystal": "Corrupted Power Crystal",
+  "item.ench_rei.damaged_power_crystal": "Damaged Power Crystal"
 }
