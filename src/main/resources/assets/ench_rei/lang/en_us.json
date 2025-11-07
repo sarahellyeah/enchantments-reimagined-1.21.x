@@ -1,6 +1,12 @@
 {
   "item.ench_rei.glowing_magma": "Glowing Magma",
+  "item.ench_rei.enriched_dragons_breath": "Enriched Dragons Breath",
+  "item.ench_rei.eternal_flame_potion": "Eternal Flame Potion",
+  "item.ench_rei.mermaid_potion": "Mermaid Potion",
+  "item.ench_rei.essence_of_power": "Essence of Power",
   "item.ench_rei.mana_crystal": "Mana Crystal",
+  "item.ench_rei.blessed_mana_crystal": "Blessed Mana Crystal",
+  "item.ench_rei.corrupted_mana_crystal": "Corrupted Mana Crystal",
   "item.ench_rei.damaged_mana_crystal": "Damaged Mana Crystal",
   "item.ench_rei.scorch_crystal": "Scorch Crystal",
   "item.ench_rei.blessed_scorch_crystal": "Blessed Scorch Crystal",
@@ -17,5 +23,7 @@
   "item.ench_rei.power_crystal": "Power Crystal",
   "item.ench_rei.blessed_power_crystal": "Blessed Power Crystal",
   "item.ench_rei.corrupted_power_crystal": "Corrupted Power Crystal",
-  "item.ench_rei.damaged_power_crystal": "Damaged Power Crystal"
+  "item.ench_rei.damaged_power_crystal": "Damaged Power Crystal",
+
+  "effect.ench_rei.greed": "Greed"
 }

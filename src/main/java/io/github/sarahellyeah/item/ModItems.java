@@ -12,7 +12,13 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
 	public static final Item GLOWING_MAGMA = registerItem("glowing_magma", new Item(new Item.Settings()));
+	public static final Item ENRICHED_DRAGONS_BREATH = registerItem("enriched_dragons_breath", new Item(new Item.Settings()));
+	public static final Item ETERNAL_FLAME_POTION = registerItem("eternal_flame_potion", new Item(new Item.Settings()));
+	public static final Item MERMAID_POTION = registerItem("mermaid_potion", new Item(new Item.Settings()));
+	public static final Item ESSENCE_OF_POWER = registerItem("essence_of_power", new Item(new Item.Settings()));
 	public static final Item MANA_CRYSTAL = registerItem("mana_crystal", new Item(new Item.Settings()));
+	public static final Item BLESSED_MANA_CRYSTAL = registerItem("blessed_mana_crystal", new Item(new Item.Settings()));
+	public static final Item CORRUPTED_MANA_CRYSTAL = registerItem("corrupted_mana_crystal", new Item(new Item.Settings()));
 	public static final Item DAMAGED_MANA_CRYSTAL = registerItem("damaged_mana_crystal", new Item(new Item.Settings()));
 	public static final Item SCORCH_CRYSTAL = registerItem("scorch_crystal", new Item(new Item.Settings()));
 	public static final Item CORRUPTED_SCORCH_CRYSTAL = registerItem("corrupted_scorch_crystal", new Item(new Item.Settings()));
@@ -40,8 +46,14 @@ public class ModItems {
 
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
 			entries.addAfter(Items.MAGMA_CREAM, ModItems.GLOWING_MAGMA);
+			entries.addAfter(ModItems.GLOWING_MAGMA, ModItems.ENRICHED_DRAGONS_BREATH);
+			entries.addAfter(ModItems.ENRICHED_DRAGONS_BREATH, ModItems.ETERNAL_FLAME_POTION);
+			entries.addAfter(ModItems.ETERNAL_FLAME_POTION, ModItems.MERMAID_POTION);
+			entries.addAfter(ModItems.MERMAID_POTION, ModItems.ESSENCE_OF_POWER);
 			entries.addAfter(Items.AIR, ModItems.MANA_CRYSTAL);
-			entries.addAfter(ModItems.MANA_CRYSTAL, ModItems.DAMAGED_MANA_CRYSTAL);
+			entries.addAfter(ModItems.MANA_CRYSTAL, ModItems.BLESSED_MANA_CRYSTAL);
+			entries.addAfter(ModItems.BLESSED_MANA_CRYSTAL, ModItems.CORRUPTED_MANA_CRYSTAL);
+			entries.addAfter(ModItems.CORRUPTED_MANA_CRYSTAL, ModItems.DAMAGED_MANA_CRYSTAL);
 			entries.addAfter(ModItems.DAMAGED_MANA_CRYSTAL, ModItems.SCORCH_CRYSTAL);
 			entries.addAfter(ModItems.SCORCH_CRYSTAL, ModItems.BLESSED_SCORCH_CRYSTAL);
 			entries.addAfter(ModItems.BLESSED_SCORCH_CRYSTAL, ModItems.CORRUPTED_SCORCH_CRYSTAL);

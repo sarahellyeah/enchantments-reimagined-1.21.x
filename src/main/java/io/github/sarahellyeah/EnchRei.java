@@ -1,5 +1,6 @@
 package io.github.sarahellyeah;
 
+import io.github.sarahellyeah.effect.ModEffects;
 import io.github.sarahellyeah.item.ModItems;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
@@ -12,6 +13,9 @@ public class EnchRei implements ModInitializer {
 
 	@Override
 	public void onInitialize(ModContainer mod) {
+
 		ModItems.registerModItems();
+
+		ModEffects.registerEffects();
 	}
 }
