@@ -25,6 +25,6 @@
   "slots": [
     "any"
   ],
-  "supported_items": "#minecraft:enchantable/durability",
+  "supported_items": "#minecraft:air",
   "weight": 2
 }
